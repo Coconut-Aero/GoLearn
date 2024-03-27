@@ -10,3 +10,4 @@ Updated 2024-3-25 14:00 CST
 
 1. hello-world.go Hello World
 2. Basic-IO.go 基本输入输出
+3. number-pyramid.go 数字金字塔
