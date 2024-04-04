@@ -4,7 +4,7 @@
 
 A Repository for Coconut-Aero to learn Go/Golang
 
-Updated 2024-3-31 18:00 CST
+_Updated 2024-4-4 11:00 CST_
 
 已有项目：
 
@@ -13,3 +13,4 @@ Updated 2024-3-31 18:00 CST
 3. time.go 显示当前系统的UNIX时间
 4. number-pyramid.go 数字金字塔
 5. estimate-pi.go 计算圆周率
+6. array-test.go 对数组的操作
