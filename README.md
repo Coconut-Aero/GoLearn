@@ -3,7 +3,7 @@
 -----------------------------------------------------
 
 [![last commit](https://img.shields.io/github/last-commit/Coconut-Aero/GoLearn)](https://github.com/Coconut-Aero/GoLearn/commits/master)
-![Static Badge](https://img.shields.io/badge/Coconut-Aero-blue)
+[![Static Badge](https://img.shields.io/badge/Coconut-Aero-blue)](https://github.com/Coconut-Aero)
 
 A Repository for Coconut-Aero to learn Go/Golang
 
