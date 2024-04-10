@@ -2,6 +2,8 @@
 
 -----------------------------------------------------
 
+[![last commit](https://img.shields.io/github/last-commit/Coconut-Aero/GoLearn)](https://github.com/Coconut-Aero/GoLearn/commits/master)
+
 A Repository for Coconut-Aero to learn Go/Golang
 
 _Updated 2024-4-4 11:00 CST_
