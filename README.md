@@ -7,7 +7,7 @@
 
 A Repository for Coconut-Aero to learn Go/Golang
 
-_Updated 2024-4-10 22:00 CST_
+_Updated 2024-4-11 21:30 CST_
 
 已有项目：
 
@@ -20,3 +20,4 @@ _Updated 2024-4-10 22:00 CST_
 7. enhanced-random.go（增强的random，可以选择范围，排除一些不想要的数字）
 8. integer-sum.go（命令行参数计算多个数字的和）
 9. srpgame.go（剪刀石头布游戏）
+10. hangman.go（猜单词游戏）
