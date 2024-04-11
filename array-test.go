@@ -14,7 +14,10 @@ func printArr(arr [6]int) {
 func main() {
 	var array [6]int
 	for i := 0; i < 6; i++ {
-		fmt.Scan(&array[i])
+		_, err := fmt.Scan(&array[i])
+		if err != nil {
+			return
+		}
 	}
 	printArr(array)
 	var a = array[0]

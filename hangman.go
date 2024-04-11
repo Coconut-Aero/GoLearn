@@ -31,7 +31,10 @@ func main() {
 			}
 			fmt.Print(" >")
 			var enter string
-			fmt.Scan(&enter)
+			_, err := fmt.Scan(&enter)
+			if err != nil {
+				return
+			}
 			var notin = 0
 			for i := 0; i < len(chosenw); i++ {
 				if enter == chosenw[i] && !guess[i] {
@@ -60,7 +63,10 @@ func main() {
 		}
 		fmt.Println("The word is", chosenword, ". You missed", miss, "time(s).")
 		fmt.Print("Do you want to guess another time? (Y/N)>")
-		fmt.Scan(&request)
+		_, err := fmt.Scan(&request)
+		if err != nil {
+			return
+		}
 		if request == "N" || request == "n" {
 			again = false
 			fmt.Print("Bye!")

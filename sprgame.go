@@ -12,7 +12,10 @@ func main() {
 		fmt.Print("Scissor(0) , Rock (1) , Paper (2) :")
 		var player int
 		var computer = rand.Intn(3)
-		fmt.Scan(&player)
+		_, err2 := fmt.Scan(&player)
+		if err2 != nil {
+			return
+		}
 		switch computer {
 		case 0:
 			fmt.Print("The computer is scissor.")
@@ -55,7 +58,10 @@ func main() {
 		}
 		fmt.Print("Play again?(Y/N)")
 		var request string
-		fmt.Scan(&request)
+		_, err := fmt.Scan(&request)
+		if err != nil {
+			return
+		}
 		if request == "N" || request == "n" {
 			exit = true
 		}
