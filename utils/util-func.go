@@ -2,6 +2,7 @@ package utils
 
 import (
 	"fmt"
+	"math/rand"
 )
 
 func PrintArr(arr []int, size int) {
@@ -33,4 +34,16 @@ func IsSorted(list []int) bool {
 		}
 	}
 	return true
+}
+
+func GetRandom(start int, end int, numbers ...int) int {
+	var result int
+	result = rand.Intn(end-start) + start
+	for i := 0; i < len(numbers); i++ {
+		if result == numbers[i] {
+			result = rand.Intn(end-start) + start
+			i = 0
+		}
+	}
+	return result
 }
