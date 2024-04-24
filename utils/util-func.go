@@ -47,3 +47,16 @@ func GetRandom(start int, end int, numbers ...int) int {
 	}
 	return result
 }
+
+func AddMatrix(matrix1 [][]float64, matrix2 [][]float64) [][]float64 {
+	res := make([][]float64, len(matrix1))
+	for i := range res {
+		res[i] = make([]float64, len(matrix1[i]))
+	}
+	for i := 0; i < len(matrix1); i++ {
+		for j := 0; j < len(matrix1[i]); j++ {
+			res[i][j] = matrix1[i][j] + matrix2[i][j]
+		}
+	}
+	return res
+}
