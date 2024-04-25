@@ -60,3 +60,17 @@ func AddMatrix(matrix1 [][]float64, matrix2 [][]float64) [][]float64 {
 	}
 	return res
 }
+func MultiplyMatrix(matrix1 [][]float64, matrix2 [][]float64) [][]float64 {
+	res := make([][]float64, len(matrix1))
+	for i := range res {
+		res[i] = make([]float64, len(matrix1[i]))
+	}
+	for i := 0; i < len(matrix1); i++ {
+		for j := 0; j < len(matrix1[i]); j++ {
+			for k := 0; k < len(matrix1); k++ {
+				res[i][j] += matrix1[i][k] * matrix2[k][j]
+			}
+		}
+	}
+	return res
+}
