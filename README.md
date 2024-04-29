@@ -13,6 +13,15 @@ A Repository for Coconut-Aero to learn Go/Golang
 
 _Updated 2024-4-25 19:20 CST_
 
+## 特别注意
+您可以自由的使用本仓库，除非您违反 GNU Public License v3.0 协议中的相关内容。
+您可以修改本仓库中的代码，但您保证修改后的代码按照与本仓库类似的方式进行开源。
+
+## 特别声明
+我们反对Gitee及其他类似Git仓库的闭源人工审核机制，为此，我们 **严禁** 使用者将本仓库上传至中国大陆的任何Git仓库中。
+
+## 相关信息
+
 utils/util-func.go中的各种可以调用的函数
 
 | 描述                          |                            用法                            | 类型          |
