@@ -74,3 +74,7 @@ func MultiplyMatrix(matrix1 [][]float64, matrix2 [][]float64) [][]float64 {
 	}
 	return res
 }
+func BoolRandom() bool {
+	var ran int = GetRandom(-1, 2, -1, 2)
+	return ran == 0
+}
