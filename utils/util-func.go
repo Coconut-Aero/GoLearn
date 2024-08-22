@@ -5,9 +5,16 @@ import (
 	"math/rand"
 )
 
-func PrintArr(arr []int, size int) {
+func PrintIntArr(arr []int, size int) {
 	for i := 0; i < size; i++ {
 		fmt.Printf("%3d", arr[i])
+	}
+	fmt.Println()
+}
+
+func PrintStringArr(arr []string) {
+	for i := 0; i < len(arr); i++ {
+		fmt.Print(arr[i])
 	}
 	fmt.Println()
 }
@@ -36,7 +43,7 @@ func IsSorted(list []int) bool {
 	return true
 }
 
-func GetRandom(start int, end int, numbers ...int) int {
+func GetRandomExpect(start int, end int, numbers ...int) int {
 	var result int
 	result = rand.Intn(end-start) + start
 	for i := 0; i < len(numbers); i++ {
@@ -46,6 +53,10 @@ func GetRandom(start int, end int, numbers ...int) int {
 		}
 	}
 	return result
+}
+
+func GetRandom(start int, end int) int {
+	return rand.Intn(end-start) + start
 }
 
 func AddMatrix(matrix1 [][]float64, matrix2 [][]float64) [][]float64 {
@@ -75,6 +86,6 @@ func MultiplyMatrix(matrix1 [][]float64, matrix2 [][]float64) [][]float64 {
 	return res
 }
 func BoolRandom() bool {
-	var ran int = GetRandom(-1, 2, -1, 2)
+	var ran int = GetRandomExpect(-1, 2, -1, 2)
 	return ran == 0
 }

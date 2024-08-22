@@ -23,7 +23,7 @@ func main() {
 	}
 	var IsShorted = IsSorted(list)
 	fmt.Print("The list have ", size, " integers:")
-	utils.PrintArr(list, size)
+	utils.PrintIntArr(list, size)
 	if !IsShorted {
 		fmt.Println("The list is not sorted.")
 	} else {

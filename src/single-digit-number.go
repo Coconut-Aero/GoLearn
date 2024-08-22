@@ -11,7 +11,7 @@ func main() {
 		count [10]int
 	)
 	for i := 0; i < len(tmp); i++ {
-		tmp[i] = utils.GetRandom(0, 10, -1, 10)
+		tmp[i] = utils.GetRandomExpect(0, 10, -1, 10)
 	}
 	for i := 0; i < 10; i++ {
 		for j := 0; j < 10; j++ {
