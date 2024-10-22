@@ -1,22 +1,34 @@
-# GoLearn
+# <div align="center">Repository of GoLearn</div>
 
 -----------------------------------------------------
 
-[![last commit](https://img.shields.io/github/last-commit/Coconut-Aero/GoLearn)](https://github.com/Coconut-Aero/GoLearn/commits/master)
-[![Static Badge](https://img.shields.io/badge/Coconut-Aero-blue)](https://github.com/Coconut-Aero)
+<p align="center">
+    <img src="https://img.shields.io/github/last-commit/Coconut-Aero/GoLearn" alt="GoLearn GitHub Repository">
+    <img src="https://img.shields.io/badge/Coconut-Aero-blue" alt="Coconut-Aero">
+</p>
 
-[![Banner](https://s21.ax1x.com/2024/05/01/pkkuwQg.png)](https://imgse.com/i/pkkuwQg)
+<p align="center">
+    <img src="https://s21.ax1x.com/2024/05/01/pkkuwQg.png" alt="Project FrontStar"> 
+</p>
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/Go/Golang.png" alt="Golang Logo" width="300">
+</p>
+
 
 A Repository for Coconut-Aero to learn Go/Golang
 
-_Updated 2024-5-3 21:40 CST_
+> [!NOTE]
+> 特别注意
+> 
+> 您可以自由的使用本仓库，除非您违反 GNU Public License v3.0 协议中的相关内容。
+> 
+> 您可以修改本仓库中的代码，但您保证修改后的代码按照与本仓库类似的方式进行开源。
 
-## 特别注意
-您可以自由的使用本仓库，除非您违反 GNU Public License v3.0 协议中的相关内容。
-您可以修改本仓库中的代码，但您保证修改后的代码按照与本仓库类似的方式进行开源。
-
-## 特别声明
-我们不允许任何人将此仓库内容上传到诸如Gitee等存在闭源人工审核等机制的仓库内。
+> [!IMPORTANT]
+> 特别声明
+> 
+> 我们不允许任何人将此仓库内容上传到诸如Gitee等存在闭源人工审核等机制的仓库内。
 
 
 ## 相关信息
