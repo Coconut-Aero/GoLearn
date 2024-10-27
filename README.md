@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-    <img src="https://s21.ax1x.com/2024/05/01/pkkuwQg.png" alt="Project FrontStar"> 
+    <img src="https://raw.githubusercontent.com/Coconut-Aero/Coconut-Aero/refs/heads/main/FrontStar.png" alt="Project FrontStar"> 
 </p>
 
 <p align="center">
